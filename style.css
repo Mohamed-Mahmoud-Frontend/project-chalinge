@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #333;
+    font-family: sans-serif;
+}
+header{
+    background: url("/images/bg-header-desktop.png") no-repeat;
+}
+
+header .contact{
+    margin-bottom: 100px;
+    text-align: center;
+    
+    position: relative;
+}
+header .contact h2{ 
+margin-top: 20px;
+color: #333;
+font-weight: 600;
+
+ }
+ header .contact p{
+width: 50%;
+margin-top: 20px;
+
+text-align: center;
+margin-left: 23%;
+ }
+.logo{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+}
+.button-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+    bottom: 50px;
+}
+.button-item button{
+    margin: 5px;
+    border-radius:15px ;
+    height: 35px;
+    border: rgb(11, 167, 122) solid 2px;
+    background-color: rgb(0, 197, 141);
+    color: #fff;
+    width: 120px;
+    -webkit-border-radius:15px ;
+    -moz-border-radius:15px ;
+    -ms-border-radius:15px ;
+    -o-border-radius:15px ;
+}
+.button-item button:last-child{
+    border:hsl(228, 45%, 44%) solid 2px;
+
+    background-color: rgb(12, 132, 237);
+}
+.sectionTwo{
+    margin-top: 100px;
+}
+.sectionTwo-text
+{
+    font-size: 18px;
+
+    text-align: center;
+}
+.sectionTwo-text p{
+    margin-top: 10px;
+    font-size: 11px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    left: 280px;
+}
+.sectionscreen{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sectionTwo-item h4{
+    margin-bottom: 20px;
+}
+.sectionTwo-item h6{
+margin-bottom: 10px;
+width: 250px;
+}
+.sectionTwo-photo img{
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+}
+main{
+    margin-top: 150px;
+    flex-direction: column;
+    display: flex;
+}
+.main-text{
+    
+    margin-top: 20px;
+    text-align: center;
+}
+.main-text h4{
+font-size: 24px;
+margin-top: 10px;
+}
+.main-text h5{
+    font-size: 11px;
+    margin-top: 20px;
+}
+.main-img img{
+
+    align-items: center;
+    margin-top: 50px;
+
+}
+.section-last{
+    margin-top: 100px;
+}
+.section-last-text {
+
+text-align: center;
+
+}
+.section-last-text h4{
+    font-size: 26px;
+    color: #333;
+    margin-top: 20px;
+}
+.section-last-text h5{
+    margin-top: 20px;
+}
+.items{
+    display: flex;
+    align-items: center;
+margin-top: 30px;
+justify-content: space-evenly;
+
+}
+.item{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.item img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.item h5{
+    font-size: 18px;
+color: #000;
+    margin-top: 25px;
+
+}
+.item p{
+  
+    text-align: center;
+    color:  #555;
+    margin-top: 30px;  
+      width: 300px;
+}
+.logo-company{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+aside{
+    margin-top: 100px;
+    height: 200px;
+
+}
+.aside-text{
+text-align: center;
+
+
+}
+.aside-text h4{
+    text-align: center;
+
+    font-size: 24px;
+    margin-top: 10px;
+
+
+}
+.aside-text p{
+    font-size: 11px;
+    margin-top: 10px;
+
+}
+.button-item-aside{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    margin: auto;
+
+}.button-item-aside button{
+    margin-left:  20px;
+margin-top: 100px;
+    
+    border-radius:15px ;
+    height: 35px;
+    border: rgb(11, 167, 122) solid 2px;
+    background-color: rgb(0, 197, 141);
+    color: #fff;
+    width: 120px;
+    -webkit-border-radius:15px ;
+    -moz-border-radius:15px ;
+    -ms-border-radius:15px ;
+    -o-border-radius:15px ;
+}
+.button-item-aside button:last-child{
+    border:hsl(228, 45%, 44%) solid 2px;
+
+    background-color: rgb(12, 132, 237);
+}
+.foot-section{
+    background-color: #eee;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot-section .image-logo{
+    width: 60px;
+    height: 60px;
+
+}
+.ulist ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+} 
+.ulist ul li {
+    margin:5px
+    
+
+}
+.icon-social img{
+    margin: 5px;
+    
+}
+@media (max-width:720px) {
+    .sectionscreen{
+        display: block;
+
+    }
+    .sectionTwo-text p{
+        text-align: center;
+        position: relative;
+        left: 50px;
+        width: 300px;
+    }
+    .sectionscreen img {
+        position: relative;
+        left: 50px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .sectionTwo-item  {
+      text-align: center;
+      margin-top: 20px;
+
+
+    }
+
+    .sectionTwo-item h6{
+        position: relative;
+        left: 70px;
+    }
+    .main-text{
+        position: relative;
+        left: -20px;
+    }
+    .main-img img{
+        width: 350px;
+        height: 350px;
+    }
+    .items{
+        display: block;
+        position: relative;
+        left: 50px;
+
+    }
+    .section-last-text{
+        position: relative;
+        left: -20px;
+    }
+.logo-company {
+    display: block;
+
+
+}
+.logo-company img{
+ margin-bottom: 50px;
+ position: relative;
+ left: 100px;
+
+
+}
+.aside-text{
+    position: relative;
+    left: 0;
+    width: 350px;
+}
+.aside-text h4{
+    text-align: center;
+    position: relative;
+    left: 20px;
+}.aside-text p{
+    text-align: center;
+    position: relative;
+    left: 20px;
+}
+.button-item-aside{
+margin: 5px;
+}
+.icon-social{
+    display: flex;
+}
+
+  
+}
