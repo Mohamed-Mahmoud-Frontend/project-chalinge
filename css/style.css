@@ -181,13 +181,16 @@ aside{
 }
 .aside-text{
 text-align: center;
-width: 500px;
-position: relative;
-left: 300px;
+
+
 }
 .aside-text h4{
+    text-align: center;
+
     font-size: 24px;
     margin-top: 10px;
+
+
 }
 .aside-text p{
     font-size: 11px;
